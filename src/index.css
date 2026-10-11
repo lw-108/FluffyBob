@@ -11,7 +11,7 @@ a:focus-visible{outline:2px solid currentColor;outline-offset:6px}
 .headline{font-family:Epilogue,Arial,sans-serif;font-weight:900;font-size:1.66vw;line-height:1.2;letter-spacing:0}
 .job-title{display:block;margin-top:1.45vw}
 .footer-nav{display:flex;flex-direction:column;align-items:flex-start;gap:.93vw;margin-top:1.3vw;font-size:1.075vw;line-height:1.35}
-.logo{position:absolute;left:40.33vw;top:7.7vw;width:17vw}
+.logo{position:absolute;left:50%;transform:translateX(-50%);top:7.2vw;width:4.8vw}
 .logo svg{display:block;width:100%;height:auto}
 .contact{position:absolute;left:74.3vw;top:6.54vw}
 .contact-links{display:flex;flex-direction:column;align-items:flex-start;margin-top:1.45vw;white-space:nowrap}
@@ -27,7 +27,7 @@ a:focus-visible{outline:2px solid currentColor;outline-offset:6px}
   :root{--background:#f0eefa;background:var(--background)}
   body{background:var(--background)}
   .footer{display:flex;flex-direction:column;gap:36px;min-height:100svh;padding:40px 24px 0;background:var(--background)}
-  .logo{position:static;order:0;align-self:flex-start;width:210px;max-width:75%;margin-bottom:4px}
+  .logo{position:static;order:0;align-self:flex-start;transform:none;width:52px;max-width:75%;margin-bottom:4px}
   .jobs{order:1;margin:0;width:100%}
   .tag{height:30px;padding:6px 11px;font-size:14px}
   .headline{font-size:clamp(22px,6.3vw,30px);line-height:1.25}
